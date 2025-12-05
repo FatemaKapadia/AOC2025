@@ -32,7 +32,7 @@ namespace AOC {
         return ret;
     }
 void Day3::solve() {
-std::vector<std::string> lines = readFromFile("input3.1.txt");
+        std::vector<std::string> lines = readFromFile("input3.1.txt");
         long long ans = 0;
         for (const auto& line : lines) {
             std::vector<int> arr = parseLine(line);
