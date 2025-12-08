@@ -8,6 +8,7 @@
 #include "utils.h"
 
 #include <iostream>
+#include <bits/regex_constants.h>
 
 namespace AOC {
     std::vector<std::string> readFromFile(const std::string& filename) {
