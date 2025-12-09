@@ -16,5 +16,7 @@ namespace AOC {
         }
         std::cout << std::endl;
     }
+
+    std::vector<int> parseLineToIntegers(const std::string& line);
 }
 #endif //UTILS_H

@@ -20,6 +20,8 @@ add_executable(AdventOfCode2025 main.cpp
         Day5.h
         Day6.cpp
         Day6.h
+        Day7.cpp
+        Day7.h
 )
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/input1.1.txt ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/input3.1.txt ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
@@ -28,3 +30,4 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/input5.txt ${CMAKE_CURRENT_BINARY_DIR
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/input6.txt ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/example.txt ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/input7.txt ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)

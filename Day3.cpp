@@ -24,18 +24,11 @@ namespace AOC {
         return std::make_pair(ans, index);
     }
 
-    std::vector<int> parseLine(const std::string& line) {
-        std::vector<int> ret;
-        for (const char c: line) {
-            ret.push_back(c - '0');
-        }
-        return ret;
-    }
 void Day3::solve() {
         std::vector<std::string> lines = readFromFile("input3.1.txt");
         long long ans = 0;
         for (const auto& line : lines) {
-            std::vector<int> arr = parseLine(line);
+            std::vector<int> arr = parseLineToIntegers(line);
             int largestIndex = -1;
             std::vector<int> currAns (12, 0);
             for (int i=12 ; i>0 ; i-- ) {

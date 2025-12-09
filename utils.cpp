@@ -26,4 +26,12 @@ namespace AOC {
         return ret;
     }
 
+    std::vector<int> parseLineToIntegers(const std::string& line) {
+        std::vector<int> ret;
+        for (const char c: line) {
+            ret.push_back(c - '0');
+        }
+        return ret;
+    }
+
 }
